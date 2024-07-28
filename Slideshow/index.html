@@ -1,0 +1,40 @@
+<!-- Initialize the HTML Doc -->
+<!DOCTYPE html>
+<html lang="eng">
+<!-- Create a Head tag to display author, page description, charset, viewport, title and link to CSS and JS -->
+<head>
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description"
+            content="CSC256 -  Designing Website Interfaces I"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="code.js"></script>
+    <title>CSC256 Assignment 2.2 - Slideshow using an Array</title>
+
+</head>
+<!-- Create a body tag to house the header, the image, directional buttons, and footer -->
+<body>
+    <!-- Page header -->
+    <h1>My Family</h1>
+    <!-- div to contain the photo, I choose to use a div to standardize resizing the photo displayed -->
+    <div class="photo-container">
+        <!-- image tag with file name of the source file-->
+        <img id="currentPhoto" src="images/img1.jpg">
+    </div>
+    <!-- div to contain the buttons so that they appear on the same line/height -->
+    <div class="buttons-container">
+        <!-- buttons to control either going to the previous or next photo -->
+        <button class="std_btn" id="previous_btn" onClick="updatePhotoDisplay('previous')">&lt;</button>
+        <button class="std_btn" id="next_btn" onClick="updatePhotoDisplay('next')">&gt;</button>
+    </div>
+
+    <!-- Footer to contain page creator's information -->
+    <footer>
+        <p> Ethan Hartman </p>
+        <p> ehartman85368@uat.edu </p>
+        <p> CSC256 -  Designing Website Interfaces I </p>
+    </footer>
+</body>
+</html>
