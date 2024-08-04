@@ -1,0 +1,44 @@
+/* Set general display of items within the body tag */
+body {
+    background-image: url("nebula.png");
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Remove spacing between table cells */
+#checkerBoard {
+    border-collapse: collapse;
+}
+
+/* REmove padding, margin, and border from table cells */
+#checkerBoard td {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Ensure images take up the full size of the table cells */
+#checkerBoard img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* set the footer to a block display, give it a border */
+/* align the text within the footer to center */
+/* make the width and position of the footer dynamic */
+footer{
+    display: block;
+    text-align: center;
+    border-style: solid;
+    width: calc((100% - 185px) / 2);
+    background-color: rgba(5, 4, 4, 0.3);
+    font-size: 1.1em; /* Slightly larger font size */
+    line-height: 1.6; /* Slightly more spaced lines */
+}
