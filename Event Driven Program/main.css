@@ -1,0 +1,56 @@
+/* General styles for the body element */
+body {
+    background-image: url("nebula.png");
+    font-family: 'Times New Roman', Times, serif; 
+    color: white; 
+    display: flex;
+    justify-content: flex-start; /* Align items from the top */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; 
+    margin: 0; /* Remove default margin */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styles for the recipe name paragraph */
+#recipeName {
+    margin-top: 20px; 
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+/* Style for the recipe table */
+#recipeTable {
+    margin-top: 20px; /* Position the table slightly below the recipe name */
+    width: 50%; 
+    background-color:hsl(160, 100%, 25%);
+    border: 1px solid white; /* Add grid lines with white color */
+    padding: 10px; /* Add padding inside the cells */
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+#recipeTable th,
+#recipeTable td {
+    border: 1px solid white; /* Add grid lines with white color */
+}
+
+/* Styles for the button div below the table */
+#buttonDiv {
+    margin-top: 20px; /* Add space above the buttons */
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly within the div */
+    width: 50%;
+}
+
+/* Styles for the footer element */
+footer {
+    bottom: 0; /* Align the footer to the bottom of the window */
+    position: fixed; /* Fix the footer at the bottom of the page */
+    width: 100%; 
+    display: block; /* Ensure the footer is displayed as a block element */
+    text-align: center; 
+    border-style: solid; 
+    background-color: rgba(5, 4, 4, 0.3); 
+    font-size: 1.1em; 
+    line-height: 1; 
+}

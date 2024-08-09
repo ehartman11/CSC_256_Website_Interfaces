@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for author, description, charset, viewport, and compatibility -->
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description" content="CSC256 - Designing Website Interfaces I introduction"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Link to external JavaScript file -->
+    <script defer src="code.js"></script>
+    
+    <!-- Title of the web page -->
+    <title>CSC256 Assignment 1.2</title>
+</head>
+<body>
+    <!-- Form for user to create a new recipe -->
+    <form id="recipeForm">
+        <p>Create a new recipe below</p>
+        <label for="recipe">Enter recipe name:</label>
+        <input type="text" id="recipe" name="recipe" required>
+        <button type="submit" id="recipeButton">Create Recipe</button>
+    </form>
+    
+    <!-- Paragraph to display the name of the created recipe -->
+    <p id="recipeName"></p>
+
+    <!-- Table to display the ingredients of the recipe -->
+    <table id="recipeTable">
+        <thead id="recipeHead"></thead>
+        <tbody id="recipeBody"></tbody>
+    </table>
+
+    <!-- Div to hold the Add and Remove buttons -->
+    <div id="buttonDiv"></div>
+
+    <!-- Footer containing personal and course information -->
+    <footer id="footer">
+        <p>Ethan Hartman</p>
+        <p>ehartman85368@uat.edu</p>
+        <p>CSC256 - Designing Website Interfaces I</p>
+        <p>Expected Grad Date: Nov '26</p>
+        <p>Event Driven Programming</p>
+    </footer>
+</body>
+</html>
+
