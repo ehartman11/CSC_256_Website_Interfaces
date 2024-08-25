@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description" content="WonderTales Discussion Forum"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WonderTales - Discussion Forum</title>
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/forum.css">
+
+    <script defer src="../JS/common.js"></script>
+    <script defer src="../JS/forum.js"></script>
+</head>
+<body>
+    <header id="banner"></header>
+
+    <main>
+        <!-- Discussion Banner with filter buttons -->
+        <section class="filter-section">
+            <label for="topicOptions">Filter by Topic:</label>
+            <select id="topicOptions" name="topicOptions"></select>
+            <button id="suggestedButton">Suggested</button>
+            <button id="popularButton">Popular</button>
+        </section>
+
+        <!-- Discussion Section -->
+        <section id="postContainer" class="discussion-topics"></section>
+
+        <!-- Discussion Navigation -->
+        <section class="navigation-buttons">
+            <button id="backButton">Back</button>
+            <button id="nextButton">Next</button>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+</html>

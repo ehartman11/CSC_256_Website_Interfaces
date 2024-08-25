@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for author, description, and viewport settings -->
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description" content="WonderTales Home"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
+    <title>WonderTales - Home</title>
+
+    <!-- Linking common and page-specific CSS files -->
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+
+    <!-- Defer loading JavaScript files to ensure the DOM is loaded first -->
+    <script defer src="../JS/common.js"></script>
+    <script defer src="../JS/home.js"></script>
+</head>
+<body>
+    <!-- Header section, populated dynamically with common elements like nav links -->
+    <header id="banner">
+    </header>
+
+    <!-- Main content of the homepage -->
+    <main>
+        <!-- Welcome section with a background image -->
+        <section class="welcome-banner">
+            <!-- Placeholder for welcome statement, to be filled dynamically -->
+            <h2 id="welcome-statement"></h2>
+        </section>
+        
+        <!-- Content row containing a short description of the site and testimonials -->
+        <section class="content-row">
+            <!-- Short description dynamically filled with content from home.json -->
+            <div class="short-description">
+                <p id="description"></p>
+            </div>
+            <!-- Testimonials section, also dynamically populated -->
+            <div id="testimonials" class="testimonials">
+                <!-- Testimonials will be inserted here by home.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section, populated dynamically with common elements like contact info -->
+    <footer id="footer">
+    </footer>
+</body>
+</html>
+
+
+

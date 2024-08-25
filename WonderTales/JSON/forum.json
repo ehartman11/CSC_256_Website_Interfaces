@@ -1,0 +1,127 @@
+{
+    "posts": [
+        {
+            "title": "Title",
+            "type": "Education",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User1",
+            "userImage": "../images/user1.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User3",
+                "userImage": "../images/user3.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User5",
+                "userImage": "../images/user5.png",
+                "text": "User's question, statement, etc."
+            }]
+        },
+        {
+            "title": "Title",
+            "type": "Education",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User2",
+            "userImage": "../images/user2.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User1",
+                "userImage": "../images/user1.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User4",
+                "userImage": "../images/user4.png",
+                "text": "User's question, statement, etc."
+            }, 
+            {
+                "user": "User4",
+                "userImage": "../images/user4.png",
+                "text": "User's question, statement, etc."
+            }]         
+        },
+        {
+            "title": "Title",
+            "type": "Newborn",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User3",
+            "userImage": "../images/user3.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User2",
+                "userImage": "../images/user2.png",
+                "text": "User's question, statement, etc."
+            }]
+        },
+        {
+            "title": "Title",
+            "type": "Breast Feeding",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User4",
+            "userImage": "../images/user4.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User1",
+                "userImage": "../images/user1.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User4",
+                "userImage": "../images/user4.png",
+                "text": "User's question, statement, etc."
+            }]
+        },
+        {
+            "title": "Title",
+            "type": "Potty Training",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User4",
+            "userImage": "../images/user5.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User3",
+                "userImage": "../images/user3.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User1",
+                "userImage": "../images/user1.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User2",
+                "userImage": "../images/user2.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User5",
+                "userImage": "../images/user5.png",
+                "text": "User's question, statement, etc."
+            }]
+        },
+        {
+            "title": "Title",
+            "type": "Potty Training",
+            "overview": "Brief overview of discussion topic.",
+            "user": "User4",
+            "userImage": "../images/user6.png",
+            "text": "User's question, statement, etc.",
+            "responses": [{
+                "user": "User2",
+                "userImage": "../images/user2.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User4",
+                "userImage": "../images/user4.png",
+                "text": "User's question, statement, etc."
+            },
+            {
+                "user": "User1",
+                "userImage": "../images/user1.png",
+                "text": "User's question, statement, etc."
+            }]
+        }
+    ]
+}

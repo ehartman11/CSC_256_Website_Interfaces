@@ -1,0 +1,48 @@
+{
+    "featuredArticle": {
+        "title": "Raising Curious Kids",
+        "description": "Discover tips and strategies to encourage curiosity and a love of learning in your children.",
+        "authorImage": "../images/curiousKidsBook.png",
+        "link": "https://www.ebay.com/itm/315497273439?var=0&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338590836&toolid=10044&customid=447fff072b841086e5a899cfd8837890"
+    },
+    "books": [
+        {
+            "title": "The Science of Parenting",
+            "link": "https://www.thriftbooks.com/w/science-of-parenting_margot-sunderland/284641/item/31168049/?mkwid=%7cdc&pcrid=77447028765180&pkw=&pmt=be&slid=&product=31168049&plc=&pgrid=1239149900900141&ptaid=pla-4581046492312219&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping+-+High+Vol+Frontlist+-+Under+%2410&utm_term=&utm_content=%7cdc%7cpcrid%7c77447028765180%7cpkw%7c%7cpmt%7cbe%7cproduct%7c31168049%7cslid%7c%7cpgrid%7c1239149900900141%7cptaid%7cpla-4581046492312219%7c&msclkid=84dacb23a9e31aeb209aadeb5a92dbff#idiq=31168049&edition=11168044"
+        },
+        {
+            "title": "Parenting with Love and Logic",
+            "link": "https://www.thriftbooks.com/w/parenting-with-love-and-logic_eugene-h-peterson_jim-fay/247872/item/1412437/?mkwid=%7cdc&pcrid=76622395087230&pkw=&pmt=be&slid=&product=1412437&plc=&pgrid=1225955761390001&ptaid=pla-4580221857838626%3aaud-805998392&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping+-+High+Vol+Midlist+-+Under+%2410&utm_term=&utm_content=%7cdc%7cpcrid%7c76622395087230%7cpkw%7c%7cpmt%7cbe%7cproduct%7c1412437%7cslid%7c%7cpgrid%7c1225955761390001%7cptaid%7cpla-4580221857838626%3aaud-805998392%7c&msclkid=03baea8efcea11e5aaf28c4604bc5d2f#idiq=1412437&edition=3929090"
+        }
+    ],
+    "articles": [
+        {
+            "title": "Encouraging Creativity at Home",
+            "link": "https://greatergood.berkeley.edu/article/item/six_ways_to_help_kids_grow_their_creativity"
+        },
+        {
+            "title": "Tips for Managing Screen Time",
+            "link": "https://www.commonsensemedia.org/articles/whats-the-best-way-to-manage-screen-time"
+        }
+    ],
+    "blogs": [
+        {
+            "title": "Raise Children With Big Hearts and Strong Minds",
+            "link": "https://nurtureandthriveblog.com/"
+        },
+        {
+            "title": "Elevating Child Care",
+            "link": "https://www.janetlansbury.com/"
+        }
+    ],
+    "videos": [
+        {
+            "title": "Pediatrician Explains Newborn Baby Basics: Feeding, Safe Sleep, Pooping, Car Seats, and more",
+            "link": "https://www.youtube.com/watch?v=WQuX_Yw3yIg"
+        },
+        {
+            "title": "Caring For Your Newborn: Promoting Infant Development and Addressing Common Questions",
+            "link": "https://www.youtube.com/watch?v=2vqhTU16Dr4"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "topics": ["Courage", "Heroism", "Exploration"],
+    "genre": ["Playful", "Fantasy", "Adventure"],
+    "books": [
+        {
+            "title": "The Adventures of Curious Cat",
+            "genre": "Playful",
+            "topic": "Exploration",
+            "author": "John Doe",
+            "pages": {
+                "page-1": {
+                    "content": [
+                        "Once upon a time in a little village, there lived a very curious cat.",
+                        "The cat loved to explore every nook and cranny of the village.",
+                        "One day, the cat found a hidden treasure in an old attic."
+                    ],
+                    "image": "../images/curious-cat.jpg"
+                },
+                "page-2": {
+                    "content": [
+                        "The cat carefully opened the treasure chest and found it filled with shiny jewels and ancient coins.",
+                        "But the cat didn’t care much for riches. What caught its attention was an old, dusty map tucked away in the corner of the chest.",
+                        "This map led to an adventure like no other."
+                    ],
+                    "image": "../images/curious-cat-treasure.jpg"
+                },
+                "page-3": {
+                    "content": [
+                        "With the map in paw, the curious cat embarked on a journey beyond the village.",
+                        "The path was filled with surprises, from hidden valleys to towering mountains.",
+                        "But nothing could stop the cat from following the map to its mysterious destination."
+                    ],
+                    "image": "../images/curious-cat-journey.jpg"
+                }
+            }
+        },
+        {
+            "title": "The Enchanted Forest",
+            "genre": "Fantasy",
+            "topic": "Heroism",
+            "author": "Jane Smith",
+            "pages": {
+                "page-1": {
+                    "content": [
+                        "Deep in the heart of an ancient forest, there was a place where the trees whispered secrets.",
+                        "The forest was filled with magical creatures who lived in harmony with the land.",
+                        "But one day, the forest was in danger, and it needed a hero."
+                    ],
+                    "image": "../images/enchanted-forest.jpg"
+                },
+                "page-2": {
+                    "content": [
+                        "A young adventurer named Lily heard the forest’s call for help.",
+                        "She ventured into the forest with nothing but her courage and a small lantern.",
+                        "As she walked deeper, the trees guided her towards the source of the danger."
+                    ],
+                    "image": "../images/lily-forest.jpg"
+                },
+                "page-3": {
+                    "content": [
+                        "Lily discovered that a dark spell had been cast over the forest by an evil sorcerer.",
+                        "With the help of the magical creatures, she found the sorcerer’s lair and confronted him.",
+                        "Using her courage and the power of friendship, Lily broke the spell and saved the enchanted forest."
+                    ],
+                    "image": "../images/lily-sorcerer.jpg"
+                }
+            }
+        },
+        {
+            "title": "The Brave Little Elephant",
+            "genre": "Adventure",
+            "topic": "Courage",
+            "author": "Mark Twain",
+            "pages": {
+                "page-1": {
+                    "content": [
+                        "In a vast savannah, there lived a small elephant who dreamed of being brave.",
+                        "The other animals often laughed at the elephant, saying he was too small to be brave.",
+                        "But the little elephant knew that courage wasn’t about size; it was about heart."
+                    ],
+                    "image": "../images/little-elephant.jpg"
+                },
+                "page-2": {
+                    "content": [
+                        "One day, a great storm swept across the savannah, and the herd was in danger.",
+                        "The little elephant knew he had to act. He trumpeted loudly, calling the other animals to safety.",
+                        "Despite his fear, the little elephant led the way to a hidden cave where everyone could take shelter."
+                    ],
+                    "image": "../images/elephant-storm.jpg"
+                },
+                "page-3": {
+                    "content": [
+                        "After the storm passed, the animals realized that the little elephant had saved them all.",
+                        "No one doubted his bravery anymore. The little elephant had proven that courage comes from within.",
+                        "From that day on, the little elephant was known as the bravest of them all."
+                    ],
+                    "image": "../images/elephant-hero.jpg"
+                }
+            }
+        }
+    ]
+}

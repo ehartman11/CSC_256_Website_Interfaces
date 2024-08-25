@@ -1,0 +1,54 @@
+{
+    "Milestones": [
+        {
+            "age": "2 weeks",
+            "description": "Your baby is beginning to recognize your voice!",
+            "image": "../image/recognize_voice.png"
+        },
+        {
+            "age": "1 month",
+            "description": "First full month of smiles and coos!",
+            "image": "../image/smiles_coos.png"
+        },
+        {
+            "age": "3 months",
+            "description": "Your baby can now lift their head and chest during tummy time!",
+            "image": "../image/tummy_time.png"
+        },
+        {
+            "age": "6 months",
+            "description": "Your baby's first smile and laughter!",
+            "image": "../image/smile.png"
+        },
+        {
+            "age": "9 months",
+            "description": "Your baby is starting to crawl and explore!",
+            "image": "../image/crawling.png"
+        },
+        {
+            "age": "12 months",
+            "description": "First steps, first words!",
+            "image": "../image/steps.png"
+        },
+        {
+            "age": "18 months",
+            "description": "Your child is learning to feed themselves and say a few words.",
+            "image": "../image/self_feeding.png"
+        },
+        {
+            "age": "2 years",
+            "description": "Play and learning together with growing vocabulary.",
+            "image": "../image/play.png"
+        },
+        {
+            "age": "5 years",
+            "description": "Ready for school, excited to learn and make friends.",
+            "image": "../image/school.png"
+        },
+        {
+            "age": "10 years",
+            "description": "Growing independence, interests, and skills.",
+            "image": "../image/independence.png"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+/* General Layout */
+main {
+    padding: 20px;
+}
+
+/* Content Sections */
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.excerpt-box {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline Section */
+.timeline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 0; 
+    margin-bottom: 30px;
+    height: 100px; 
+}
+
+.milestone {
+    text-align: center;
+    position: relative;
+    flex: 1; 
+    cursor: pointer;
+}
+
+.milestone-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.milestone-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #ff7f50;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ff7f50;
+    z-index: -1;
+}
+
+/* Excerpt Display Section */
+.excerpt-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.excerpt-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

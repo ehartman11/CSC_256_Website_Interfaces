@@ -1,0 +1,144 @@
+/* Main Content Layout */
+main {
+    margin-left: 18%; 
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Filter Banner */
+.filter-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffdd57;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    margin-right: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.filter-section select {
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.filter-section button {
+    background-color: #ff7f50;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.filter-section button:hover {
+    background-color: #e06b3d;
+}
+
+/* Discussion Topics */
+.discussion-topics {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Style for user images in the discussion forum */
+.discussion-topics img {
+    max-width: 80px; 
+    height: auto;
+    border-radius: 50%; 
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+/* Container for all discussion topics */
+.discussion-topics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual discussion item */
+.discussion-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.discussion-item:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* User image styling */
+.user-image {
+    grid-row: 1 / span 2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.post {
+    opacity: 80%;
+    background-color: #d8d7d7;
+}
+
+/* Post title styling */
+.post-title {
+    cursor: pointer;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Post overview styling */
+.post-overview {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

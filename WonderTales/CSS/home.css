@@ -1,0 +1,64 @@
+/* General layout for the main content area */
+main {
+    padding: 20px;
+    background: url('../images/welcome_bg.jpg') no-repeat center center;
+    background-size: cover; /* Ensure the background image covers the entire section */
+}
+
+/* Styling for the welcome banner section */
+.welcome-banner {
+    background-color: aliceblue;
+    opacity: 85%;
+    padding: 40px;
+    color: #1b1010;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.welcome-banner h2 {
+    margin: 0;
+    font-size: 2rem; /* Increase font size for prominence */
+}
+
+/* Layout for the content row that includes a short description and testimonials */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Styling for the short description text */
+.short-description {
+    width: 45%;
+    padding-right: 20px;
+    background-color: aliceblue;
+    opacity: 85%;
+}
+
+.short-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Styling for the testimonials section */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #007BFF; /* Highlight the testimonial with a colored border */
+    border-radius: 5px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}

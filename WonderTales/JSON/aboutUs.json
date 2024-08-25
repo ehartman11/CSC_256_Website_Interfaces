@@ -1,0 +1,20 @@
+{
+    "teamMembers" : [
+        {
+            "name": "Erica Hartman",
+            "role": "Resident Expert in Childhood Development",
+            "bio": "Erica is a certified teacher with 5 years of experience in childhood development",
+            "image": "../images/team_member1.png"
+        },
+        {
+            "name": "Ethan Hartman",
+            "role": "Lead Developer",
+            "bio": "Ethan is pursuing a Bachelors of Science in Computer Science at UAT",
+            "image": "../images/GitHub_1.jpg"
+        }
+    ],
+    "mission": "Our mission is to nurture the emotional, physical, and intellectual growth of children.",
+    "vision": "We envision a world where every child has the opportunity to explore, learn, and grow to the maximum extent possible.",
+    "ourStory": "WonderTales was born out of a desire to create a platform where children could engage in meaningful and joyful learning experiences. Our journey began in 2023, and we have been committed to this mission ever since."
+}
+

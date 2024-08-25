@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description" content="WonderTales Stories"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WonderTales - Stories</title>
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/story.css">
+
+    <script defer src="../JS/common.js"></script>
+    <script defer src="../JS/story.js"></script>
+</head>
+<body>
+    <header id="banner"></header>
+
+    <main>
+        <!-- Modal to display stories available for selection after filtering -->
+        <div id="availableStoriesModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2>Available Stories</h2>
+                <div id="availableStoriesList"></div>
+                <button id="keepCurrentStory">Keep Current Story</button>
+            </div>
+        </div>
+        
+        <!-- Filter Banner -->
+        <section class="filter-banner">
+            <label for="topicOptions">By Topic:</label>
+            <select id="topicOptions" name="topicOptions"></select>
+            
+            <label for="genreOptions">By Genre:</label>
+            <select id="genreOptions" name="genreOptions"></select>
+        </section>
+
+        <!-- Story Title -->
+        <article id="story-title">
+            <h2></h2>
+        </article>
+
+        <!-- Story Content -->
+        <article class="story-content">
+            <div class="text-and-image">
+                <p id="pageText"></p>
+                <img id="pageImg" src="" alt="Story Image">
+            </div>
+            <div class="navigation-buttons">
+                <button id="backButton">Back</button>
+                <button id="nextButton">Next</button>
+            </div>
+        </article>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+</html>

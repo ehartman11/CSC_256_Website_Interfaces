@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Ethan Hartman"/>
+    <meta name="description" content="WonderTales User Account"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WonderTales - User Account</title>
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/userAccount.css">
+
+    <script defer src="../JS/common.js"></script>
+    <script defer src="../JS/userAccount.js"></script>
+</head>
+<body>
+    <header id="banner"></header>
+
+    <!-- User Account Details -->
+    <section class="user-details">
+        <div class="user-info">
+            <img id="userAvatar" src="" alt="User Avatar">
+            <p id="childNameLabel">Child's Name: <span id="childNameText"></span></p>
+            <button id="editProfileBtn">Edit Profile</button>
+        </div>
+        <div class="user-info">
+            <img id="userImg" src="" alt="User Adventure Album">
+            <p id="parentNameLabel">Parent's Name: <span id="parentNameText"></span></p>
+            <button id="adventureAlbumBtn">Our Adventure Album</button>
+        </div>
+    </section>
+
+    <!-- User Data Section -->
+    <section class="user-data">
+        <div class="age-group">
+            <h2>Child's Age Group</h2>
+            <p id="ageGroup"></p>
+            <p id="upcomingMilestones"></p>
+            <p id="currentPreferences"></p>
+        </div>
+
+        <!-- Awards and Badges -->
+        <div class="awards-badges">
+            <h2>Awards</h2>
+            <ul id="awardsList">
+                <!-- Awards will be dynamically populated -->
+            </ul>
+
+            <h2>Badges</h2>
+            <ul id="badgesList">
+                <!-- Badges will be dynamically populated -->
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- User Form (hidden by default) -->
+    <section id="userForm" style="display: none;">
+        <h2>Edit Profile</h2>
+        <form>
+            <label for="parentName">Parent's Name:</label>
+            <input type="text" id="parentName" name="parentName" value="" required>
+
+            <label for="childName">Child's Name:</label>
+            <input type="text" id="childName" name="childName" value="" required>
+
+            <button type="submit">Save</button>
+            <button type="button" id="cancelBtn">Cancel</button>
+        </form>
+    </section>
+
+    <footer id="footer"></footer>
+</body>
+</html>
